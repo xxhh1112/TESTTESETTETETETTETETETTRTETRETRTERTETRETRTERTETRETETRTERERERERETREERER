@@ -1,0 +1,120 @@
+# Licensed to the Apache Software Foundation (ASF) under one
+# or more contributor license agreements.  See the NOTICE file
+# distributed with this work for additional information
+# regarding copyright ownership.  The ASF licenses this file
+# to you under the Apache License, Version 2.0 (the
+# "License"); you may not use this file except in compliance
+# with the License.  You may obtain a copy of the License at
+#
+#   http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing,
+# software distributed under the License is distributed on an
+# "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+# KIND, either express or implied.  See the License for the
+# specific language governing permissions and limitations
+# under the License.
+
+# https://cwiki.apache.org/confluence/display/INFRA/git+-+.asf.yaml+features
+---
+github:
+  description: "Apache Airflow - A platform to programmatically author, schedule, and monitor workflows"
+  homepage: https://airflow.apache.org/
+  # Social media preview image is not supported by Github API/asf.yaml, need to be uploaded
+  # manually in Github repository --> Settings --> click "Edit" in "Social preview"
+  # See also:
+  # https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/customizing-your-repositorys-social-media-preview
+  # social_media_preview: docs/apache-airflow/img/logos/github_repository_social_image.png
+  labels:
+    # Note that Github only supports <=20 labels/topics per repo! Pipeline will fail if you add more.
+    - airflow
+    - apache
+    - apache-airflow
+    - automation
+    - dag
+    - data-engineering
+    - data-integration
+    - data-orchestrator
+    - data-pipelines
+    - data-science
+    - elt
+    - etl
+    - machine-learning
+    - mlops
+    - orchestration
+    - python
+    - scheduler
+    - workflow
+    - workflow-engine
+    - workflow-orchestration
+  features:
+    # Enable issues management
+    issues: true
+    # Enable projects for project management boards
+    projects: true
+    # Enable wiki for documentation
+    wiki: false
+
+  enabled_merge_buttons:
+    squash: true
+    merge: false
+    rebase: false
+
+  protected_branches:
+    main:
+      required_pull_request_reviews:
+        required_approving_review_count: 1
+      required_linear_history: true
+      required_conversation_resolution: true
+    v1-10-stable:
+      required_pull_request_reviews:
+        required_approving_review_count: 1
+    v2-0-stable:
+      required_pull_request_reviews:
+        required_approving_review_count: 1
+      required_linear_history: true
+    v2-1-stable:
+      required_pull_request_reviews:
+        required_approving_review_count: 1
+      required_linear_history: true
+    v2-2-stable:
+      required_pull_request_reviews:
+        required_approving_review_count: 1
+      required_linear_history: true
+    v2-3-stable:
+      required_pull_request_reviews:
+        required_approving_review_count: 1
+      required_linear_history: true
+    v2-4-stable:
+      required_pull_request_reviews:
+        required_approving_review_count: 1
+      required_linear_history: true
+    v2-5-stable:
+      required_pull_request_reviews:
+        required_approving_review_count: 1
+      required_linear_history: true
+    v2-6-stable:
+      required_pull_request_reviews:
+        required_approving_review_count: 1
+      required_linear_history: true
+    v2-7-stable:
+      required_pull_request_reviews:
+        required_approving_review_count: 1
+      required_linear_history: true
+    v2-8-stable:
+      required_pull_request_reviews:
+        required_approving_review_count: 1
+      required_linear_history: true
+  collaborators:
+    - Lee-W
+    - RNHTTR
+    - aritra24
+    - dirrao
+    - mhenc
+    - nathadfield
+    - sunank200
+    - vatsrahul1001
+    - cmarteepants
+
+notifications:
+  jobs: jobs@airflow.apache.org
