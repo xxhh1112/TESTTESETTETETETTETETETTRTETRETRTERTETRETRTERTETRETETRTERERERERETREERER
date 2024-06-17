@@ -12,8 +12,7 @@ fa
 fa
 fq
 fa
-ga
-f
+gaq
 g
 k
 la
