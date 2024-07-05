@@ -17,6 +17,6 @@ gr
 kq
 la
 la
-d
+dq
 aq
 ds
