@@ -11,7 +11,7 @@ faa
 fay
 faq
 fqq
-fa
+fay
 gaq
 gry
 kq
