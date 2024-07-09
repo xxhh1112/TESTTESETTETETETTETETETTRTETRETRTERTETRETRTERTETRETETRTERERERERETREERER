@@ -17,6 +17,6 @@ gry
 kqy
 lay
 la
-dq
+dqy
 aq
 ds
