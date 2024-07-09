@@ -13,7 +13,7 @@ faq
 fqq
 fa
 gaq
-gr
+gry
 kq
 la
 la
