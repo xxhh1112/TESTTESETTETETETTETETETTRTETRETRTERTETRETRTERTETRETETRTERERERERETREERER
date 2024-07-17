@@ -23,5 +23,5 @@ dse
 eee
 ree
 rr
-r
+rw
 w
