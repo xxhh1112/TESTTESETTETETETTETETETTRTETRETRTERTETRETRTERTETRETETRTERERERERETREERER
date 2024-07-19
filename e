@@ -17,7 +17,7 @@ gry
 kqys
 lay
 lay
-dqy
+dqys
 aqe
 dse
 eee
