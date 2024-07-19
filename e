@@ -3,7 +3,7 @@ hqy
 haq
 hsaa
 haaf
-hat
+hats
 gfqs
 faa
 ftqs
