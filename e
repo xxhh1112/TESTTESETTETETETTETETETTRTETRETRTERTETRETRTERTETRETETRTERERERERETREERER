@@ -14,7 +14,7 @@ fqq
 fay
 gaq
 gry
-kqy
+kqys
 lay
 lay
 dqy
