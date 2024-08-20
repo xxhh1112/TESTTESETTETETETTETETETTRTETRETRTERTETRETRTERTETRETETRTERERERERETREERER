@@ -15,7 +15,7 @@ fayf
 gaqf
 gryf
 kqys
-lay
+laya
 lay
 dqys
 aqe
